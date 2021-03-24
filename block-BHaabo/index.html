@@ -1,8 +1,88 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
-
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Flexbox Assigment-II Blog Dashboard</title>
+        <link rel="stylesheet" href="assets/stylesheet/style.css">
+        <script src="https://kit.fontawesome.com/bcf5c05fae.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container flex">
+                <a class="brand" href="#">AltCampus</a>
+                <nav class="nav">
+                    <a href="#"><img src="assets/media/icons/bell.svg" alt="bell-icon"></a>
+                    <span class="username">Suraj Mane</span><a href="#"><img src="assets/media/icons/user.svg" alt="user"></a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="section">
+                <div class="container flex">
+                    <aside class="aside">
+                       <div class="col col-1">
+                           <a href="#">
+                               <img src="assets/media/icons/dashboard.svg" alt="dashboard">
+                               <span>Dashboard</span>
+                           </a>
+                       </div>
+                       <div class="col col-2">
+                           <a href="#">
+                               <img src="assets/media/icons/article.svg" alt="Article">
+                               <span class="active">Article</span>
+                           </a>
+                       </div>
+                       <div class="col col-3">
+                           <a href="#">
+                              <img src="assets/media/icons/analytics.svg" alt="analytics">
+                              <span>Analytics</span>
+                           </a>
+                       </div>
+                       <div class="col col-4">
+                           <a href="#">
+                              <img src="assets/media/icons/inbox.svg" alt="inbox">
+                              <span>Inbox</span>
+                           </a>
+                       </div>
+                       <div class="col col-5">
+                           <a href="#">
+                              <img src="assets/media/icons/setting.svg" alt="setting">
+                              <span>Setting</span>
+                           </a>
+                       </div>
+                       <div class="col col-6">
+                        <a href="#">
+                           <img src="assets/media/icons/log-out.svg" alt="log-out">
+                           <span>Log Out</span>
+                        </a>
+                    </div>
+                    </aside>
+                    <div class="aside-2">
+                        <div class="blog">
+                            <img class="blog-img" src="assets/media/01.png" alt="pic01">
+                            <h1 class="blog-headline">Why we are doing AltCampus</h1>
+                            <p class="text">AltCampus is an alternative to college that you wish existed currently, we offering an in-house, 6-month long program to train 
+                               people in qulity software develpment, Whare they don't have to pay anything until they are hired.
+                            </p>
+                            <p> We lived in the world of digital skills, these skills are always evolving and so is their demand students/professionals who are not responsive to the changes in industry demands, interms of skills,
+                               well at least flourishing.
+                            </p>
+                            <p class="read-more">Read More</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container flex">
+                <p class="footer-text"><small>&copy;</small>AltCampus</p>
+                <nav class="footer-link">
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
